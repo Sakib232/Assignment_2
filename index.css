@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header_section
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 32px;
+}
+#name
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#button
+{
+    /* Frame 2 */
+
+    width: 230px;
+    height: 57px;
+    left: 1046px;
+    top: 38px;
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 17px 24px 17px 24px;
+
+
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+
+    opacity: 0.8;
+    
+
+}
+
+.hero_bg
+{
+    background: url(./assets/Hero-bg.png);
+    /* Hero-bg */
+    position: absolute;
+    width: 1500px;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 131px;
+    bottom: 4462px;
+}
+
+.frame1
+{
+    position: absolute;
+    /* Frame 4 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+width: 998px;
+height: 581px;
+left: 221px;
+right: 221px;
+top: 157px;
+bottom: 4507px;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding-bottom: 0px;
+
+
+}
+
+.group_immage
+{
+    /* Group */
+
+width: 173.03px;
+height: 228.9px;
+left: 243.4%;
+right: -215.41%;
+top: 0%;
+bottom: 4.63%;
+
+}
+.title1
+{
+    /* "In the near future, I hope to become a Developer." */
+position: static;
+width: 998px;
+height: 136px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+
+/* font size */
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.paragraph
+{
+
+width: 852px;
+height: 52px;
+/* Auto layout */
+
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 50px;
+/* font layout */
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.btn
+{
+    /* Frame 2 */
+position: static;
+width: 244px;
+height: 65px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 21px 24px 21px 24px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 75px ;
+margin-left: 400px;
+/* styles */
+border-radius: 8px;
+
+background: rgb(13, 19, 33);
+}
+#txt
+{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
